@@ -1,0 +1,9 @@
+D:\Programacion Web\Parcial-One-Web\Entity\bin\Debug\netstandard2.1\Entity.deps.json
+D:\Programacion Web\Parcial-One-Web\Entity\bin\Debug\netstandard2.1\Entity.dll
+D:\Programacion Web\Parcial-One-Web\Entity\bin\Debug\netstandard2.1\Entity.pdb
+D:\Programacion Web\Parcial-One-Web\Entity\obj\Debug\netstandard2.1\Entity.csprojAssemblyReference.cache
+D:\Programacion Web\Parcial-One-Web\Entity\obj\Debug\netstandard2.1\Entity.AssemblyInfoInputs.cache
+D:\Programacion Web\Parcial-One-Web\Entity\obj\Debug\netstandard2.1\Entity.AssemblyInfo.cs
+D:\Programacion Web\Parcial-One-Web\Entity\obj\Debug\netstandard2.1\Entity.csproj.CoreCompileInputs.cache
+D:\Programacion Web\Parcial-One-Web\Entity\obj\Debug\netstandard2.1\Entity.dll
+D:\Programacion Web\Parcial-One-Web\Entity\obj\Debug\netstandard2.1\Entity.pdb

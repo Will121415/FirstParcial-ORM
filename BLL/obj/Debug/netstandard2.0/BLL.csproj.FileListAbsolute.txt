@@ -1,0 +1,13 @@
+D:\Programacion Web\FirstParcial-Web\BLL\bin\Debug\netstandard2.0\BLL.deps.json
+D:\Programacion Web\FirstParcial-Web\BLL\bin\Debug\netstandard2.0\BLL.dll
+D:\Programacion Web\FirstParcial-Web\BLL\bin\Debug\netstandard2.0\BLL.pdb
+D:\Programacion Web\FirstParcial-Web\BLL\bin\Debug\netstandard2.0\DAL.dll
+D:\Programacion Web\FirstParcial-Web\BLL\bin\Debug\netstandard2.0\Entity.dll
+D:\Programacion Web\FirstParcial-Web\BLL\bin\Debug\netstandard2.0\Entity.pdb
+D:\Programacion Web\FirstParcial-Web\BLL\bin\Debug\netstandard2.0\DAL.pdb
+D:\Programacion Web\FirstParcial-Web\BLL\obj\Debug\netstandard2.0\BLL.csprojAssemblyReference.cache
+D:\Programacion Web\FirstParcial-Web\BLL\obj\Debug\netstandard2.0\BLL.AssemblyInfoInputs.cache
+D:\Programacion Web\FirstParcial-Web\BLL\obj\Debug\netstandard2.0\BLL.AssemblyInfo.cs
+D:\Programacion Web\FirstParcial-Web\BLL\obj\Debug\netstandard2.0\BLL.csproj.CopyComplete
+D:\Programacion Web\FirstParcial-Web\BLL\obj\Debug\netstandard2.0\BLL.dll
+D:\Programacion Web\FirstParcial-Web\BLL\obj\Debug\netstandard2.0\BLL.pdb

@@ -1,0 +1,8 @@
+D:\Programacion Web\FirstParcial-Web\Entity\bin\Debug\netstandard2.0\Entity.deps.json
+D:\Programacion Web\FirstParcial-Web\Entity\bin\Debug\netstandard2.0\Entity.dll
+D:\Programacion Web\FirstParcial-Web\Entity\bin\Debug\netstandard2.0\Entity.pdb
+D:\Programacion Web\FirstParcial-Web\Entity\obj\Debug\netstandard2.0\Entity.csprojAssemblyReference.cache
+D:\Programacion Web\FirstParcial-Web\Entity\obj\Debug\netstandard2.0\Entity.AssemblyInfoInputs.cache
+D:\Programacion Web\FirstParcial-Web\Entity\obj\Debug\netstandard2.0\Entity.AssemblyInfo.cs
+D:\Programacion Web\FirstParcial-Web\Entity\obj\Debug\netstandard2.0\Entity.dll
+D:\Programacion Web\FirstParcial-Web\Entity\obj\Debug\netstandard2.0\Entity.pdb

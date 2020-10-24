@@ -1,0 +1,80 @@
+<form>
+  <h1>Registrar Persona</h1>
+  <br>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label>Identificacion</label>
+      <input type="text" class="form-control" name="identification" [(ngModel)]="person.identification"
+        placeholder="Identificacion"  required>
+    </div>
+    <div class="form-group col-md-6">
+      <label>Nombre</label>
+      <input type="text" class="form-control" name="name" [(ngModel)]= "person.name" 
+          placeholder="Nombre" required>
+    </div>
+  </div>
+  
+  <div class="form-row">
+      <div class="form-group col-md-6">
+        <label>Apellidos</label>
+        <input type="text" class="form-control" name="surnames" [(ngModel)] ="person.surnames"
+        placeholder="Mora" required>
+      </div>
+      <div class="form-group col-md-6">
+          <label>Edad</label>
+          <input type="number" class="form-control" name="age" [(ngModel)] ="person.age"
+          placeholder="18" required>
+        </div>
+  </div>
+  <div class="form-row">
+      <div class="form-group col-md-6">
+          <label>Sexo</label>
+          <select name="sex" [(ngModel)]="person.sex" class="form-control">
+            <option selected>M</option>
+            <option>F</option>
+          </select>
+      </div>
+      <div class="form-group col-md-6">
+          <label>Departamento</label>
+          <input type="text" class="form-control" name="department" [(ngModel)] ="person.department"
+          placeholder="Cesar" required>
+        </div>
+  </div>
+  <div class="form-row">
+      <div class="form-group col-md-6">
+          <label>Ciudad</label>
+          <input type="text" class="form-control" name="city" [(ngModel)] ="person.city"
+          placeholder="Valledupar" required>
+      </div>
+      <div class="form-group col-md-6">
+        <label>ID Apoyo</label>
+        <input type="text" class="form-control" name="IdSupport" [(ngModel)] ="support.IdSupport" required>
+      </div>
+      <div class="form-group col-md-6">
+          <label>Valor del apoyo</label>
+          <input type="number" class="form-control" name="valueSupport" [(ngModel)] ="support.value"
+          placeholder="20000" required>
+      </div>
+  </div>
+  <div class="form-row">
+      <div class="form-group col-md-6">
+          <label>Modalidad del soporte</label>
+          <select name="modalitySupport" [(ngModel)]="support.modality" class="form-control">
+            <option selected>Alimentario</option>
+            <option>Economico</option>
+          </select>
+      </div>
+      <div class="form-group col-md-6">
+          <label>Fecha</label>
+          <input type="date" class="form-control" name="date" [(ngModel)] ="support.date"
+          placeholder="30/10/2020">
+        </div>
+  </div>
+  <button class="btn btn-primary" type="submit" (click) = "isRegistered()">Registrar</button>
+
+  <div class="from-gorup">
+    <h1>El total de ayudas disponibles es: $ {{quantityAvailable}}</h1>
+  </div>
+  
+</form>
+

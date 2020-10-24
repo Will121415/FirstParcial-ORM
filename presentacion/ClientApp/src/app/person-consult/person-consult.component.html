@@ -1,0 +1,33 @@
+<h1>Consultar Personas</h1>
+<br>
+
+<button type="submit" class="btn btn-dark btn-lg btn-block" (click)= "get()">Consultar</button>
+
+<br>
+
+<table class="table">
+    <thead>
+      <tr>
+        <th>Identificacion</th>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Sexo</th>
+        <th>Edad</th>
+        <th>Valor Apoyo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let person of persons">
+        <td>{{ person.identification }}</td>
+        <td>{{ person.name }}</td>
+        <td>{{ person.surnames }}</td>
+        <td>{{ person.sex }}</td>
+        <td>{{ person.age}}</td>
+        <td>{{ person.support.value}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="from-gorup">
+    <h1>El total de ayudas entregadas es: $ {{deliveredVale}}</h1>
+  </div>

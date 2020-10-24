@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "PbvZC+96NJQhSOSfsdoG9zFlwTNhOWQVpj9JTGoOelEr+c4JOiK3OBIzJsc2oZ+J3iloYmkWTSBaQg8ickKfFw==",
+  "success": true,
+  "projectFilePath": "D:\\Programacion Web\\Parcial-One-Web\\Entity\\Entity.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LENOVO-PC\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
