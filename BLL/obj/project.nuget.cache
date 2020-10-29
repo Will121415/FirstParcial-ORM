@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zIxqfoQv24xFd3lc2LPc2LBQjSe4Iuxt08LUHhu+b+AH9ZZ0A1K10mmktys7302gM3fBQ66QxJnQ+IYB9BpVzQ==",
+  "dgSpecHash": "GTHxxM49OdS9PxWJkE4mRI+I40xl+Rq1eRkKlJqrHqVFFXHaV9kkMeeY8Z+gKMHww5qQkpWKpBXpC/Zhh/PXrg==",
   "success": true,
-  "projectFilePath": "D:\\Programacion Web\\Parcial-One-Web\\BLL\\BLL.csproj",
+  "projectFilePath": "D:\\Programacion Web\\ParcialOne-ORM\\BLL\\BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO-PC\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\LENOVO-PC\\.nuget\\packages\\microsoft.data.sqlclient\\1.0.19249.1\\microsoft.data.sqlclient.1.0.19249.1.nupkg.sha512",

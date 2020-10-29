@@ -1,80 +1,124 @@
-<form>
+<form [formGroup] = "formGroupPerson">
   <h1>Registrar Persona</h1>
   <br>
   <div class="form-row">
     <div class="form-group col-md-6">
       <label>Identificacion</label>
-      <input type="text" class="form-control" name="identification" [(ngModel)]="person.identification"
-        placeholder="Identificacion"  required>
+      <input type="text" class="form-control" name="identification" 
+        placeholder="Identificacion"  formControlName = "identification" [ngClass]="{'is-invalid': controlPerson.identification.errors}">
+      <div *ngIf="controlPerson.identification.errors" class="invalid-feedback">
+          <div *ngIf="controlPerson.identification.errors.required">se requiere la identificacion</div>
+      </div>
     </div>
     <div class="form-group col-md-6">
       <label>Nombre</label>
-      <input type="text" class="form-control" name="name" [(ngModel)]= "person.name" 
-          placeholder="Nombre" required>
+      <input type="text" class="form-control" name="name" formControlName = "name" [ngClass]="{'is-invalid': controlPerson.name.errors}"
+          placeholder="Nombre">
+          <div *ngIf="controlPerson.name.errors" class="invalid-feedback">
+            <div *ngIf="controlPerson.name.errors.required">se requiere el nombre</div>
+        </div>
     </div>
   </div>
   
   <div class="form-row">
       <div class="form-group col-md-6">
         <label>Apellidos</label>
-        <input type="text" class="form-control" name="surnames" [(ngModel)] ="person.surnames"
-        placeholder="Mora" required>
+        <input type="text" class="form-control" name="surnames"formControlName ="surnames" [ngClass]="{'is-invalid': controlPerson.surnames.errors}"
+        placeholder="Apellidos">
+        <div *ngIf="controlPerson.surnames.errors" class="invalid-feedback">
+          <div *ngIf="controlPerson.surnames.errors.required">se requiere almenos un apellido</div>
+        </div>
       </div>
       <div class="form-group col-md-6">
           <label>Edad</label>
-          <input type="number" class="form-control" name="age" [(ngModel)] ="person.age"
-          placeholder="18" required>
-        </div>
+          <input type="number" class="form-control" name="age" formControlName ="age" [ngClass]="{'is-invalid': controlPerson.age.errors}">
+          <div *ngIf="controlPerson.age.errors" class="invalid-feedback">
+            <div *ngIf="controlPerson.age.errors.required">se requiere la edad</div>
+          </div>
+      </div>
+      
   </div>
   <div class="form-row">
-      <div class="form-group col-md-6">
+      <div class="form-group col-md-4">
           <label>Sexo</label>
-          <select name="sex" [(ngModel)]="person.sex" class="form-control">
-            <option selected>M</option>
+          <select class="custom-select" name="sex" formControlName = "sex" [ngClass]="{'is-invalid': controlPerson.sex.errors}">
+            <option selected>seleccionar...</option>
+            <option>M</option>
             <option>F</option>
           </select>
+
+        <div *ngIf="controlPerson.sex.errors" class="invalid-feedback">
+            <div *ngIf="controlPerson.sex.errors.validateSex">{{controlPerson.sex.errors.messageSex}}</div>
+        </div>
       </div>
-      <div class="form-group col-md-6">
+      <div class="form-group col-md-4">
           <label>Departamento</label>
-          <input type="text" class="form-control" name="department" [(ngModel)] ="person.department"
-          placeholder="Cesar" required>
+          <input type="text" class="form-control" name="department" formControlName ="department" [ngClass]="{'is-invalid': controlPerson.department.errors}"
+          placeholder="Departamento">
+          <div *ngIf="controlPerson.department.errors" class="invalid-feedback">
+            <div *ngIf="controlPerson.department.errors.required">se requiere el Departamento</div>
+          </div>
         </div>
-  </div>
-  <div class="form-row">
-      <div class="form-group col-md-6">
+        <div class="form-group col-md-4">
           <label>Ciudad</label>
-          <input type="text" class="form-control" name="city" [(ngModel)] ="person.city"
-          placeholder="Valledupar" required>
+          <input type="text" class="form-control" name="city" formControlName = "city" [ngClass]="{'is-invalid': controlPerson.city.errors}"
+          placeholder="Ciudad">
+          <div *ngIf="controlPerson.city.errors" class="invalid-feedback">
+            <div *ngIf="controlPerson.city.errors.required">se requiere la ciudad</div>
+          </div>
       </div>
-      <div class="form-group col-md-6">
-        <label>ID Apoyo</label>
-        <input type="text" class="form-control" name="IdSupport" [(ngModel)] ="support.IdSupport" required>
+  </div>
+</form>
+
+<form [formGroup]="formGroupSupport">
+  <div class="form-row">
+    <div class="form-group mt-3 mb-3 col-md-12">
+      <h1>Registrar Ayuda</h1>
+    </div>
+    <div class="form-group col-md-6">
+      <label>ID Apoyo</label>
+      <input type="text" class="form-control" name="IdSupport" formControlName="IdSupport"
+        [ngClass]="{'is-invalid': controlSupport.IdSupport.errors}" placeholder="ID del apoyo">
+      <div *ngIf="controlSupport.IdSupport.errors" class="invalid-feedback">
+        <div *ngIf="controlSupport.IdSupport.errors.required">se requiere el ID de la ayuda</div>
       </div>
-      <div class="form-group col-md-6">
-          <label>Valor del apoyo</label>
-          <input type="number" class="form-control" name="valueSupport" [(ngModel)] ="support.value"
-          placeholder="20000" required>
+    </div>
+    <div class="form-group col-md-6">
+      <label>Valor del apoyo</label>
+      <input type="number" class="form-control" name="valueSupport" formControlName="value"
+        [ngClass]="{'is-invalid': controlSupport.value.errors}">
+      <div *ngIf="controlSupport.value.errors" class="invalid-feedback">
+        <div *ngIf="controlSupport.value.errors.required">se requiere el monto de la ayuda</div>
       </div>
+    </div>
   </div>
   <div class="form-row">
-      <div class="form-group col-md-6">
-          <label>Modalidad del soporte</label>
-          <select name="modalitySupport" [(ngModel)]="support.modality" class="form-control">
-            <option selected>Alimentario</option>
-            <option>Economico</option>
-          </select>
+    <div class="form-group col-md-6">
+      <label>Modalidad del soporte</label>
+      <select class="custom-select" name="modalitySupport" formControlName="modality"
+        [ngClass]="{'is-invalid': controlSupport.modality.errors}">
+        <option selected>seleccionar...</option>
+        <option>Alimentario</option>
+        <option>Economico</option>
+      </select>
+      <div *ngIf="controlSupport.modality.errors" class="invalid-feedback">
+        <div *ngIf="controlSupport.modality.errors.validateModality">{{controlSupport.modality.errors.messageSex}}</div>
       </div>
-      <div class="form-group col-md-6">
-          <label>Fecha</label>
-          <input type="date" class="form-control" name="date" [(ngModel)] ="support.date"
-          placeholder="30/10/2020">
-        </div>
+    </div>
+    <div class="form-group col-md-6">
+      <label>Fecha</label>
+      <input type="date" class="form-control" name="date" formControlName="date"
+        [ngClass]="{'is-invalid': controlSupport.date.errors}" placeholder="30/10/2020">
+      <div *ngIf="controlSupport.date.errors" class="invalid-feedback">
+        <div *ngIf="controlSupport.date.errors.required">se requiere la fecha</div>
+      </div>
+    </div>
   </div>
-  <button class="btn btn-primary" type="submit" (click) = "isRegistered()">Registrar</button>
+  <button class="btn btn-primary" type="submit" (click)="isRegistered()"
+    [disabled]="invalid">Registrar</button>
 
   <div class="from-gorup">
-    <h1>El total de ayudas disponibles es: $ {{quantityAvailable}}</h1>
+    <h1>El total de ayudas disponibles es: $ {{quantityAvailable|currency:'COP '}}</h1>
   </div>
-  
 </form>
 

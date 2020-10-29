@@ -1,7 +1,11 @@
 <h1>Consultar Personas</h1>
 <br>
 
-<button type="submit" class="btn btn-dark btn-lg btn-block" (click)= "get()">Consultar</button>
+<button type="submit" class="btn btn-dark btn-lg btn-block" (click)= "get()">Consultar</button><br>
+
+<a class="navbar-brand">
+  <input class="form-control mx-5" type="search" name="searchText" [(ngModel)] = "searchText" placeholder="Filter" aria-label="Search">
+</a><br>
 
 <br>
 
@@ -17,7 +21,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let person of persons">
+      <tr *ngFor="let person of persons|filterPerson:searchText">
         <td>{{ person.identification }}</td>
         <td>{{ person.name }}</td>
         <td>{{ person.surnames }}</td>
@@ -29,5 +33,5 @@
   </table>
 
   <div class="from-gorup">
-    <h1>El total de ayudas entregadas es: $ {{deliveredVale}}</h1>
+    <h1>El total de ayudas entregadas es: $ {{deliveredVale|currency:'COP '}}</h1>
   </div>

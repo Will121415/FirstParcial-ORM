@@ -10,3 +10,15 @@ D:\Programacion Web\Parcial-One-Web\DAL\obj\Debug\netstandard2.1\DAL.csproj.Core
 D:\Programacion Web\Parcial-One-Web\DAL\obj\Debug\netstandard2.1\DAL.csproj.CopyComplete
 D:\Programacion Web\Parcial-One-Web\DAL\obj\Debug\netstandard2.1\DAL.dll
 D:\Programacion Web\Parcial-One-Web\DAL\obj\Debug\netstandard2.1\DAL.pdb
+D:\Programacion Web\ParcialOne-ORM\DAL\bin\Debug\netstandard2.1\DAL.deps.json
+D:\Programacion Web\ParcialOne-ORM\DAL\bin\Debug\netstandard2.1\DAL.dll
+D:\Programacion Web\ParcialOne-ORM\DAL\bin\Debug\netstandard2.1\DAL.pdb
+D:\Programacion Web\ParcialOne-ORM\DAL\bin\Debug\netstandard2.1\Entity.dll
+D:\Programacion Web\ParcialOne-ORM\DAL\bin\Debug\netstandard2.1\Entity.pdb
+D:\Programacion Web\ParcialOne-ORM\DAL\obj\Debug\netstandard2.1\DAL.csprojAssemblyReference.cache
+D:\Programacion Web\ParcialOne-ORM\DAL\obj\Debug\netstandard2.1\DAL.AssemblyInfoInputs.cache
+D:\Programacion Web\ParcialOne-ORM\DAL\obj\Debug\netstandard2.1\DAL.AssemblyInfo.cs
+D:\Programacion Web\ParcialOne-ORM\DAL\obj\Debug\netstandard2.1\DAL.csproj.CoreCompileInputs.cache
+D:\Programacion Web\ParcialOne-ORM\DAL\obj\Debug\netstandard2.1\DAL.csproj.CopyComplete
+D:\Programacion Web\ParcialOne-ORM\DAL\obj\Debug\netstandard2.1\DAL.dll
+D:\Programacion Web\ParcialOne-ORM\DAL\obj\Debug\netstandard2.1\DAL.pdb

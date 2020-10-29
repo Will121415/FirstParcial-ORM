@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PbvZC+96NJQhSOSfsdoG9zFlwTNhOWQVpj9JTGoOelEr+c4JOiK3OBIzJsc2oZ+J3iloYmkWTSBaQg8ickKfFw==",
+  "dgSpecHash": "PJJY8csDrNs1zKtcRuJWi0cR5/EKJM1BLyGA/HGbArqf/y9untC9ooBdkGXAag/7Dp7POnacT1ROcJXVBJ2jXg==",
   "success": true,
-  "projectFilePath": "D:\\Programacion Web\\Parcial-One-Web\\Entity\\Entity.csproj",
+  "projectFilePath": "D:\\Programacion Web\\ParcialOne-ORM\\Entity\\Entity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO-PC\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
   ],

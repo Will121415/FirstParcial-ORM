@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programacion Web\\Parcial-One-Web\\Entity\\Entity.csproj": {}
+    "D:\\Programacion Web\\ParcialOne-ORM\\Entity\\Entity.csproj": {}
   },
   "projects": {
-    "D:\\Programacion Web\\Parcial-One-Web\\Entity\\Entity.csproj": {
+    "D:\\Programacion Web\\ParcialOne-ORM\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programacion Web\\Parcial-One-Web\\Entity\\Entity.csproj",
+        "projectUniqueName": "D:\\Programacion Web\\ParcialOne-ORM\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "D:\\Programacion Web\\Parcial-One-Web\\Entity\\Entity.csproj",
+        "projectPath": "D:\\Programacion Web\\ParcialOne-ORM\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\LENOVO-PC\\.nuget\\packages\\",
-        "outputPath": "D:\\Programacion Web\\Parcial-One-Web\\Entity\\obj\\",
+        "outputPath": "D:\\Programacion Web\\ParcialOne-ORM\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
